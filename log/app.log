@@ -1030,3 +1030,1616 @@ NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
 2021-10-01 23:29:37 [Thread-2] INFO  Antena - Deligando a antena Antena-1
 2021-10-01 23:29:37 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
 2021-10-01 23:29:37 [Thread-1] INFO  Antena - Deligando a antena Antena-2
+2021-10-01 23:43:14 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-1
+Total de numeros da Antena: 43
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+, Antena: Antena-2
+Total de numeros da Antena: 57
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+]
+}
+2021-10-01 23:43:14 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+2021-10-01 23:43:14 [Thread-1] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:43:14 [Thread-2] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:43:16 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:16 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:18 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:18 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:20 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:20 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:22 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:22 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:24 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:24 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:26 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:43:26 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:28 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:43:28 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:21 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-1
+Total de numeros da Antena: 47
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-2
+Total de numeros da Antena: 53
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+]
+}
+2021-10-01 23:47:21 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+2021-10-01 23:47:21 [Thread-2] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:47:21 [Thread-1] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:47:23 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:23 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:23 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:23 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:25 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:25 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:25 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:25 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:27 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:27 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:27 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:27 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:29 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:29 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:29 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:29 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:31 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:31 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:31 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:31 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:33 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:33 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:33 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:33 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:35 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:35 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:35 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:35 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:37 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:37 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:37 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:37 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:39 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:39 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:39 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:39 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:41 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:47:41 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:47:41 [Thread-2] INFO  Antena - Deligando a antena Antena-2
+2021-10-01 23:47:41 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:47:41 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000063 => 900000028
+
+2021-10-01 23:47:41 [Thread-1] INFO  Antena - Deligando a antena Antena-1
+2021-10-01 23:49:45 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 48
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 52
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+]
+}
+2021-10-01 23:49:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:49:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+2021-10-01 23:49:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:49:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:49:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:49:45 [Thread-2] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:49:45 [Thread-1] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:49:47 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:47 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:47 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:47 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:49 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:49 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:49 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:49 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:51 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:51 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:51 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:51 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:53 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:53 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:53 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:53 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:55 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:55 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:55 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:55 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:57 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:57 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:57 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:57 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:49:59 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:49:59 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:49:59 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:49:59 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:50:01 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:50:01 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:50:01 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:50:01 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:50:03 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:50:03 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:50:03 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:50:03 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:50:05 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:50:05 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:50:05 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000086(Antena-1) => 900000007(Antena-1)
+
+2021-10-01 23:50:05 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000045(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:50:05 [Thread-2] INFO  Antena - Deligando a antena Antena-1
+2021-10-01 23:50:05 [Thread-1] INFO  Antena - Deligando a antena Antena-2
+2021-10-01 23:51:12 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-1
+Total de numeros da Antena: 54
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-2
+Total de numeros da Antena: 46
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+]
+}
+2021-10-01 23:51:12 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+2021-10-01 23:51:12 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+2021-10-01 23:51:12 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+2021-10-01 23:51:12 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+2021-10-01 23:51:12 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+2021-10-01 23:51:12 [Thread-2] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:51:12 [Thread-1] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:51:14 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:14 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:14 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:14 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:16 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:16 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:16 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:16 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:18 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:18 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:18 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:18 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:20 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:20 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:20 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:20 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:22 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:22 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:22 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:22 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:24 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:24 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000073(Antena-2) => 900000050(Antena-1)
+
+2021-10-01 23:51:24 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:24 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000024(Antena-1) => 900000076(Antena-2)
+
+2021-10-01 23:51:27 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 41
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 59
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+]
+}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+2021-10-01 23:51:27 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+2021-10-01 23:51:27 [Thread-1] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:51:27 [Thread-2] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:51:29 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:29 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:29 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000000(Antena-1) => 900000060(Antena-2)
+
+2021-10-01 23:51:29 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000039(Antena-1) => 900000061(Antena-1)
+900000061(Antena-1) => 900000039(Antena-1)
+
+2021-10-01 23:51:31 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:31 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000000(Antena-1) => 900000060(Antena-2)
+
+2021-10-01 23:51:31 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:31 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000039(Antena-1) => 900000061(Antena-1)
+900000061(Antena-1) => 900000039(Antena-1)
+
+2021-10-01 23:51:33 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:33 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000000(Antena-1) => 900000060(Antena-2)
+
+2021-10-01 23:51:33 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:33 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000039(Antena-1) => 900000061(Antena-1)
+900000061(Antena-1) => 900000039(Antena-1)
+
+2021-10-01 23:51:35 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:35 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000000(Antena-1) => 900000060(Antena-2)
+
+2021-10-01 23:51:35 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:35 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000039(Antena-1) => 900000061(Antena-1)
+900000061(Antena-1) => 900000039(Antena-1)
+
+2021-10-01 23:51:37 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:51:37 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:51:37 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000039(Antena-1) => 900000061(Antena-1)
+900000061(Antena-1) => 900000039(Antena-1)
+
+2021-10-01 23:51:37 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000000(Antena-1) => 900000060(Antena-2)
+
+2021-10-01 23:52:53 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 48
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 52
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+]
+}
+2021-10-01 23:52:53 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+2021-10-01 23:52:53 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+2021-10-01 23:52:53 [Thread-1] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:52:54 [Thread-2] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:52:56 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:52:56 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:52:58 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:52:58 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:00 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:00 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:02 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:02 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:04 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:04 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:45 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 55
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 45
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+]
+}
+2021-10-01 23:53:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+2021-10-01 23:53:45 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+2021-10-01 23:53:45 [Thread-1] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:53:45 [Thread-2] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:53:47 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:47 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:49 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:49 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:51 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:51 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:53 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:53 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:55 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:55 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:53:57 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:53:57 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:19 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-1
+Total de numeros da Antena: 48
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+, Antena: Antena-2
+Total de numeros da Antena: 52
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+]
+}
+2021-10-01 23:54:19 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+2021-10-01 23:54:19 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null} => NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+2021-10-01 23:54:19 [Thread-2] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:54:19 [Thread-1] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:54:21 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:21 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:21 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:21 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:23 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:23 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:23 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:23 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:25 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:25 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:25 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:25 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:27 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:27 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:27 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:27 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:29 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:29 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:29 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:29 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:31 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:31 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:31 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:31 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:33 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:33 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:33 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:33 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:35 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:35 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:35 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:35 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:37 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:37 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:37 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:37 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:39 [Thread-1] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:54:39 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 0
+Total de ligacoes em espera: 0
+Lista em curso: 
+
+2021-10-01 23:54:39 [Thread-1] INFO  Antena - Deligando a antena Antena-1
+2021-10-01 23:54:39 [Thread-2] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:54:39 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 2
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000038(Antena-1) => 900000066(Antena-2)
+900000091(Antena-2) => 900000064(Antena-2)
+
+2021-10-01 23:54:39 [Thread-2] INFO  Antena - Deligando a antena Antena-2
+2021-10-01 23:55:56 [main] INFO  Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 49
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 51
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+]
+}
+2021-10-01 23:55:56 [main] INFO  Application - Ligacao NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:55:56 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+2021-10-01 23:55:56 [main] INFO  Application - Ligacao NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+2021-10-01 23:55:56 [main] INFO  Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+2021-10-01 23:55:56 [Thread-2] INFO  Antena - Antena Antena-1 em execucao
+2021-10-01 23:55:56 [Thread-1] INFO  Antena - Antena Antena-2 em execucao
+2021-10-01 23:55:58 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:55:58 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:55:58 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000036(Antena-1) => 900000032(Antena-1)
+
+2021-10-01 23:55:58 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000090(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:56:00 [Thread-2] INFO  Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-01 23:56:00 [Thread-1] INFO  Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-01 23:56:00 [Thread-1] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000090(Antena-1) => 900000043(Antena-2)
+
+2021-10-01 23:56:00 [Thread-2] INFO  Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000036(Antena-1) => 900000032(Antena-1)
+

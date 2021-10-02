@@ -42,6 +42,14 @@ public class CentralTelefonica {
         return todosNumerosExistentes;
     }
 
+    public void efetuarLigacao(NumeroTelefone origem, NumeroTelefone destino) {
+        for (Antena antena : antenas) {
+            if(antena.getNumerosRegistrados().containsKey(destino.getNumTelefome())) {
+                antena.efetuarLigacao(origem,destino);
+            }
+        }
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

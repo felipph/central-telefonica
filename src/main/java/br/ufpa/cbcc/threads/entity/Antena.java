@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Antena implements Runnable{
+public class Antena implements Runnable {
 
     private static final Logger LOG = LoggerFactory.getLogger(Antena.class);
 
@@ -70,7 +70,7 @@ public class Antena implements Runnable{
     }
 
     public synchronized boolean efetuarLigacao(NumeroTelefone numeroSolicitante, NumeroTelefone numeroSolicitado) {
-        if(!this.getNumerosRegistrados().containsKey(numeroSolicitado.getNumTelefome())) {
+        if (!this.getNumerosRegistrados().containsKey(numeroSolicitado.getNumTelefome())) {
             return false;
         }
         if (this.numSlotsLigacao.compareTo(this.slotsEmUso.size()) > 0) {
@@ -83,7 +83,7 @@ public class Antena implements Runnable{
                 return false;
             }
         } else {
-            this.ligacaoEmEspera.put(numeroSolicitante,numeroSolicitado);
+            this.ligacaoEmEspera.put(numeroSolicitante, numeroSolicitado);
         }
         return false;
     }
@@ -94,13 +94,14 @@ public class Antena implements Runnable{
 
     @Override
     public void run() {
-        if(!this.getNumerosRegistrados().isEmpty()) {
+        if (!this.getNumerosRegistrados().isEmpty()) {
             LOG.info("Antena {} em execucao", this.nomeAntena);
             while (!pararAntena) {
                 try {
                     if (this.ligacaoEmEspera.isEmpty()) {
                         Thread.sleep(2000);
                         LOG.info("Antena {}: nenhuma chamanda chegou =/", this.nomeAntena);
+                        LOG.info("Status: {}", this.getStatusAntena());
                     } else {
                         retiraListaEspera();
                     }
@@ -118,16 +119,45 @@ public class Antena implements Runnable{
         this.pararAntena = true;
     }
 
+    public String getNomeAntena() {
+        return nomeAntena;
+    }
+
+    public String getStatusAntena() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Total de ligacoes conectadas: ");
+        sb.append(slotsEmUso.size());
+        sb.append("\n");
+        sb.append("Total de ligacoes em espera: ");
+        sb.append(ligacaoEmEspera.size());
+        sb.append("\n");
+
+        sb.append("Lista em curso: \n");
+        slotsEmUso.forEach((origem,destino) -> {
+            sb.append(origem.getNumTelefome());
+            sb.append("(");
+            sb.append(origem.getAntenaRegistrada().getNomeAntena());
+            sb.append(")");
+            sb.append(" => ");
+            sb.append(destino.getNumTelefome());
+            sb.append("(");
+            sb.append(destino.getAntenaRegistrada().getNomeAntena());
+            sb.append(")");
+            sb.append("\n");
+        });
+        return sb.toString();
+    }
+
     @Override
     public String toString() {
-       StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
 
-       sb.append("Antena: ");
-       sb.append(this.nomeAntena);
-       sb.append("\n");
-       sb.append("Total de numeros da Antena: ");
-       sb.append(numerosRegistrados.size());
-       sb.append("\n");
+        sb.append("Antena: ");
+        sb.append(this.nomeAntena);
+        sb.append("\n");
+        sb.append("Total de numeros da Antena: ");
+        sb.append(numerosRegistrados.size());
+        sb.append("\n");
         for (NumeroTelefone nume : numerosRegistrados.values()) {
             sb.append(nume);
             sb.append("\n");

@@ -54,14 +54,17 @@ public class Application {
 
         LOG.info("Central: {}", central);
 
-        Set<NumeroTelefone> numeroRegistrados = central.getTodosNumerosExistentes();
+        List<NumeroTelefone> numeroRegistrados = new ArrayList<>(central.getTodosNumerosExistentes());
 
-
-
-
+        LOG.info("Ligacao {} => {}", numeroRegistrados.get(0), numeroRegistrados.get(77));
+        central.efetuarLigacao(numeroRegistrados.get(0), numeroRegistrados.get(77));
+        LOG.info("Ligacao {} => {}", numeroRegistrados.get(2), numeroRegistrados.get(5));
+        central.efetuarLigacao(numeroRegistrados.get(2), numeroRegistrados.get(5));
 
         List<Thread> threadsAntenas = central.iniciarAntenas();
         Thread.sleep(20000);
+
+
 
         central.desligarCentral();
 
