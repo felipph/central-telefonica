@@ -134,12 +134,20 @@ public class Application {
                     if(antena != null) {
                         antena.printStatus();
                     }
-                }else if(cmd.equals("espera")) {
+                }
+                else if(cmd.equals("espera")) {
                     Integer indexAntena = Integer.parseInt(partes[1]);
                     Antena antena = centralTelefonica.getAntenas().get(indexAntena);
                     antena.printEspera();
 
-                } else if(cmd.equals("desligar")) {
+                }
+                else if(cmd.equals("proximo")) {
+                    Integer indexAntena = Integer.parseInt(partes[1]);
+                    Antena antena = centralTelefonica.getAntenas().get(indexAntena);
+                    antena.proximoListaEspera();
+
+                }
+                else if(cmd.equals("desligar")) {
                     Integer numeroInformado = Integer.parseInt(partes[1]);
                     NumeroTelefone numSolicitante = null;
                     for (NumeroTelefone numeroCentral : centralTelefonica.getTodosNumerosExistentes()) {
@@ -160,7 +168,7 @@ public class Application {
                         discador.resume();
                     }
                 }
-                else  if(comando.equals("stopDiscadores")) {
+                else  if(comando.equals("pauseDiscadores")) {
                     for (Discador discador : discadores) {
                         discador.pause();
                     }

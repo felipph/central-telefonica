@@ -64,7 +64,7 @@ public class Antena implements Runnable {
                     maiorPrioridade = prioridade;
                 }
             }
-            if(!ligacaoEmEspera.isEmpty()) {
+            if (!ligacaoEmEspera.isEmpty()) {
                 LOG.info("{} - FilaAtual: ", nomeAntena);
                 ligacaoEmEspera.forEach((origem, destino) -> {
                     LOG.info("{} => {}({})", origem.getNumTelefome(), destino.getNumTelefome(), origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue());
@@ -83,23 +83,24 @@ public class Antena implements Runnable {
             return false;
         }
         if (this.numSlotsLigacao.compareTo(this.slotsEmUso.size()) > 0) {
-            if(numeroSolicitado.estaEmLigacao()) {
+            if (numeroSolicitado.estaEmLigacao()) {
                 LOG.info("Numero Ocupado! {}", numeroSolicitado.getNumTelefome());
                 return false;
             }
-            if(numeroSolicitante.estaEmLigacao()) {
+            if (numeroSolicitante.estaEmLigacao()) {
                 LOG.info("O Numero de origem já está em ligação! {}", numeroSolicitante.getNumTelefome());
                 return false;
             }
             this.slotsEmUso.put(numeroSolicitante, numeroSolicitado);
             qntLigacoesAtuais.incrementAndGet();
-            numeroSolicitante.ligarCom(numeroSolicitado);;
-            numeroSolicitado .ligarCom(numeroSolicitante);
-            LOG.info("{} - Ligacao conectada {} => {}", nomeAntena,  numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
+            numeroSolicitante.ligarCom(numeroSolicitado);
+            ;
+            numeroSolicitado.ligarCom(numeroSolicitante);
+            LOG.info("{} - Ligacao conectada {} => {}", nomeAntena, numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
             return true;
 
         } else {
-            LOG.warn("{} - Ligacao adicioonada à espera {} => {}",nomeAntena,numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
+            LOG.warn("{} - Ligacao adicioonada à espera {} => {}", nomeAntena, numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
             this.ligacaoEmEspera.put(numeroSolicitante, numeroSolicitado);
         }
         return false;
@@ -115,22 +116,22 @@ public class Antena implements Runnable {
             LOG.info("Antena {} em execucao", this.nomeAntena);
             while (!pararAntena) {
 
-                    if(printStatus) {
-                        LOG.info("{}: Status: {}", this.nomeAntena, this.getStatusAntena());
-                        printStatus = false;
-                    }
+                if (printStatus) {
+                    LOG.info("{}: Status: {}", this.nomeAntena, this.getStatusAntena());
+                    printStatus = false;
+                }
 
-                    if(printEspera) {
-                        LOG.info("Ligações em espera");
-                        this.ligacaoEmEspera.forEach((origem, destino) -> {
-                            LOG.info("{} => {} ({})", origem.getNumTelefome(), destino.getNumTelefome(), origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue());
-                        });
-                        printEspera = false;
-                    }
+                if (printEspera) {
+                    LOG.info("Ligações em espera");
+                    this.ligacaoEmEspera.forEach((origem, destino) -> {
+                        LOG.info("{} => {} ({})", origem.getNumTelefome(), destino.getNumTelefome(), origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue());
+                    });
+                    printEspera = false;
+                }
 
-                    if (!this.ligacaoEmEspera.isEmpty()) {
-                        retiraListaEspera();
-                    }
+                if (!this.ligacaoEmEspera.isEmpty()) {
+                    retiraListaEspera();
+                }
 
             }
             LOG.info("Deligando a antena {}", this.nomeAntena);
@@ -142,6 +143,7 @@ public class Antena implements Runnable {
     public void printStatus() {
         this.printStatus = true;
     }
+
     public void printEspera() {
         this.printEspera = true;
     }
@@ -164,7 +166,7 @@ public class Antena implements Runnable {
         sb.append("\n");
 
         sb.append("Lista em curso: \n");
-        slotsEmUso.forEach((origem,destino) -> {
+        slotsEmUso.forEach((origem, destino) -> {
             sb.append(origem.getNumTelefome());
             sb.append("(");
             sb.append(origem.getAntenaRegistrada().getNomeAntena());
@@ -196,11 +198,34 @@ public class Antena implements Runnable {
         return sb.toString();
     }
 
-    public void liberarSlot(NumeroTelefone numeroTelefone){
+    public void liberarSlot(NumeroTelefone numeroTelefone) {
         NumeroTelefone destino = this.slotsEmUso.remove(numeroTelefone);
-        if(destino != null) {
+        if (destino != null) {
             this.qntLigacoesAtuais.decrementAndGet();
-            LOG.info("Ligação encerrada: {} => {}", numeroTelefone.getNumTelefome(), destino.getNumTelefome());
+            LOG.info("{} - Ligação encerrada: {} => {}", nomeAntena, numeroTelefone.getNumTelefome(), destino.getNumTelefome());
+        }
+    }
+
+    public void proximoListaEspera() {
+        if (!ligacaoEmEspera.isEmpty()) {
+            NumeroTelefone origemSelecionado = null;
+            NumeroTelefone destinoSelecionado = null;
+            Integer maiorPrioridade = 0;
+            //aqui vai a logica para decidir qual tirar da lista
+            for (Map.Entry<NumeroTelefone, NumeroTelefone> entry : ligacaoEmEspera.entrySet()) {
+                NumeroTelefone origem = entry.getKey();
+                NumeroTelefone destino = entry.getValue();
+                Integer prioridade = origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue();
+                if (maiorPrioridade.compareTo(prioridade) < 0) {
+                    destinoSelecionado = destino;
+                    origemSelecionado = origem;
+                    maiorPrioridade = prioridade;
+                }
+            }
+            LOG.info("{} - {} => {}({})", nomeAntena, origemSelecionado.getNumTelefome(), destinoSelecionado.getNumTelefome(), origemSelecionado.getTipoNumero().getValue() + destinoSelecionado.getTipoNumero().getValue());
+
+        } else {
+            LOG.warn("{} - Não há ligacoes em espera", nomeAntena);
         }
     }
 }
