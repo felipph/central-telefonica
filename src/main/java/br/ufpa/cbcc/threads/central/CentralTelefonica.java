@@ -1,11 +1,11 @@
-package br.ufpa.cbcc.threads.entity;
+package br.ufpa.cbcc.threads.central;
 
 import java.util.*;
 
 public class CentralTelefonica {
 
     Set<NumeroTelefone> todosNumerosExistentes = new HashSet<>();
-    Set<Antena> antenas = new HashSet<>();
+    List<Antena> antenas = new ArrayList<>();
 
     public void adicionarNumero(NumeroTelefone numeroTelefone, Antena antena) {
         if (todosNumerosExistentes.add(numeroTelefone)) {
@@ -15,7 +15,9 @@ public class CentralTelefonica {
                 }
                 antena.getNumerosRegistrados().put(numeroTelefone.getNumTelefome(), numeroTelefone);
                 numeroTelefone.setAntenaRegistrada(antena);
-                antenas.add(antena);
+                if(!antenas.contains(antena)) {
+                    antenas.add(antena);
+                }
             }
         } else {
             throw new IllegalArgumentException(String.format("Numero %s já registrado", numeroTelefone.getNumTelefome()));
@@ -47,6 +49,21 @@ public class CentralTelefonica {
             if(antena.getNumerosRegistrados().containsKey(destino.getNumTelefome())) {
                 antena.efetuarLigacao(origem,destino);
             }
+        }
+    }
+
+    public List<Antena> getAntenas() {
+        return antenas;
+    }
+
+    public void desligar (NumeroTelefone numeroTelefone) {
+        if(numeroTelefone.estaEmLigacao()) {
+            Antena antenaRegistrada = numeroTelefone.getAntenaRegistrada();
+            NumeroTelefone numeroConectado = numeroTelefone.getNumeroConectado();
+            numeroConectado.getAntenaRegistrada().liberarSlot(numeroTelefone);
+            antenaRegistrada.liberarSlot(numeroConectado);
+            numeroTelefone.ligarCom(null);
+            numeroConectado.ligarCom(null);
         }
     }
 

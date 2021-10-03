@@ -1,4 +1,4 @@
-package br.ufpa.cbcc.threads.entity;
+package br.ufpa.cbcc.threads.central;
 
 public class NumeroTelefone {
 
@@ -12,7 +12,7 @@ public class NumeroTelefone {
         this.numTelefome = numTelefome;
     }
 
-    public void ligarPara(NumeroTelefone emLicacaoCom) {
+    public void ligarCom(NumeroTelefone emLicacaoCom) {
         this.emLicacaoCom = emLicacaoCom;
     }
 
@@ -42,10 +42,19 @@ public class NumeroTelefone {
 
     @Override
     public String toString() {
+
+        Integer numeroConectado = null;
+        if(emLicacaoCom != null) {
+            numeroConectado = emLicacaoCom.getNumTelefome();
+        }
         return "NumeroTelefone{" +
                 "tipoNumero=" + tipoNumero +
                 ", numTelefome='" + numTelefome + '\'' +
-                ", emLicacaoCom=" + emLicacaoCom +
+                ", emLicacaoCom=" + numeroConectado+
                 '}';
+    }
+
+    public NumeroTelefone getNumeroConectado() {
+        return emLicacaoCom;
     }
 }

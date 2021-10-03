@@ -1,6 +1,5 @@
-package br.ufpa.cbcc.threads.entity;
+package br.ufpa.cbcc.threads.central;
 
-import br.ufpa.cbcc.threads.Application;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +11,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Antena implements Runnable {
 
     private static final Logger LOG = LoggerFactory.getLogger(Antena.class);
+
+    public boolean printStatus = false;
+
+    public boolean printEspera = false;
 
     private boolean pararAntena = false;
 
@@ -29,7 +32,7 @@ public class Antena implements Runnable {
     /**
      * Quantidade de licagoes em curso;
      */
-    private AtomicInteger qntLigacoesAtuais;
+    private AtomicInteger qntLigacoesAtuais = new AtomicInteger(0);
     /**
      * irá conter a  lista de todas as ligações em curso 2 vezes,
      * numero1 -> numero2
@@ -45,27 +48,33 @@ public class Antena implements Runnable {
         this.nomeAntena = nomeAntena;
     }
 
-    public void retiraListaEspera() {
+    public synchronized void retiraListaEspera() {
         if (numSlotsLigacao.compareTo(qntLigacoesAtuais.get()) > 0) {
-            NumeroTelefone numeroSolicitanteSelecionado = null;
-            NumeroTelefone numeroSolicitadoSelecionado = null;
+            NumeroTelefone origemSelecionado = null;
+            NumeroTelefone destinoSelecionado = null;
             Integer maiorPrioridade = 0;
             //aqui vai a logica para decidir qual tirar da lista
             for (Map.Entry<NumeroTelefone, NumeroTelefone> entry : ligacaoEmEspera.entrySet()) {
-                NumeroTelefone numeroSolicitante = entry.getKey();
-                NumeroTelefone numeroSolicitado = entry.getValue();
-                Integer prioridade = numeroSolicitado.getTipoNumero().getValue() + numeroSolicitado.getTipoNumero().getValue();
+                NumeroTelefone origem = entry.getKey();
+                NumeroTelefone destino = entry.getValue();
+                Integer prioridade = origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue();
                 if (maiorPrioridade.compareTo(prioridade) < 0) {
-                    numeroSolicitadoSelecionado = numeroSolicitado;
-                    numeroSolicitanteSelecionado = numeroSolicitante;
+                    destinoSelecionado = destino;
+                    origemSelecionado = origem;
                     maiorPrioridade = prioridade;
                 }
             }
-            LOG.info("FilaAtual: {}", ligacaoEmEspera);
-            LOG.info("Numeros selecionados {} => {} - prioridade {}", numeroSolicitanteSelecionado, numeroSolicitadoSelecionado, maiorPrioridade);
-            assert numeroSolicitanteSelecionado != null;
-            ligacaoEmEspera.remove(numeroSolicitanteSelecionado);
-            efetuarLigacao(numeroSolicitanteSelecionado, numeroSolicitadoSelecionado);
+            if(!ligacaoEmEspera.isEmpty()) {
+                LOG.info("{} - FilaAtual: ", nomeAntena);
+                ligacaoEmEspera.forEach((origem, destino) -> {
+                    LOG.info("{} => {}({})", origem.getNumTelefome(), destino.getNumTelefome(), origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue());
+                });
+            }
+            LOG.info("{} - Numeros selecionados {} => {} - prioridade {}", nomeAntena, origemSelecionado.getNumTelefome(), destinoSelecionado.getNumTelefome(), maiorPrioridade);
+            LOG.info("{} - Tipos selecionados {} => {} - prioridade {}", nomeAntena, origemSelecionado.getTipoNumero().name(), destinoSelecionado.getTipoNumero().name(), maiorPrioridade);
+            assert origemSelecionado != null;
+            ligacaoEmEspera.remove(origemSelecionado);
+            efetuarLigacao(origemSelecionado, destinoSelecionado);
         }
     }
 
@@ -74,15 +83,23 @@ public class Antena implements Runnable {
             return false;
         }
         if (this.numSlotsLigacao.compareTo(this.slotsEmUso.size()) > 0) {
-            if (!numeroSolicitado.estaEmLigacao()) {
-                this.slotsEmUso.put(numeroSolicitante, numeroSolicitado);
-                LOG.info("Ligacao conectada {} => {}", numeroSolicitante, numeroSolicitado);
-                return true;
-            } else {
-                LOG.info("Numero Ocupado! {}", numeroSolicitado);
+            if(numeroSolicitado.estaEmLigacao()) {
+                LOG.info("Numero Ocupado! {}", numeroSolicitado.getNumTelefome());
                 return false;
             }
+            if(numeroSolicitante.estaEmLigacao()) {
+                LOG.info("O Numero de origem já está em ligação! {}", numeroSolicitante.getNumTelefome());
+                return false;
+            }
+            this.slotsEmUso.put(numeroSolicitante, numeroSolicitado);
+            qntLigacoesAtuais.incrementAndGet();
+            numeroSolicitante.ligarCom(numeroSolicitado);;
+            numeroSolicitado .ligarCom(numeroSolicitante);
+            LOG.info("{} - Ligacao conectada {} => {}", nomeAntena,  numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
+            return true;
+
         } else {
+            LOG.warn("{} - Ligacao adicioonada à espera {} => {}",nomeAntena,numeroSolicitante.getNumTelefome(), numeroSolicitado.getNumTelefome());
             this.ligacaoEmEspera.put(numeroSolicitante, numeroSolicitado);
         }
         return false;
@@ -97,22 +114,36 @@ public class Antena implements Runnable {
         if (!this.getNumerosRegistrados().isEmpty()) {
             LOG.info("Antena {} em execucao", this.nomeAntena);
             while (!pararAntena) {
-                try {
-                    if (this.ligacaoEmEspera.isEmpty()) {
-                        Thread.sleep(2000);
-                        LOG.info("Antena {}: nenhuma chamanda chegou =/", this.nomeAntena);
-                        LOG.info("Status: {}", this.getStatusAntena());
-                    } else {
+
+                    if(printStatus) {
+                        LOG.info("{}: Status: {}", this.nomeAntena, this.getStatusAntena());
+                        printStatus = false;
+                    }
+
+                    if(printEspera) {
+                        LOG.info("Ligações em espera");
+                        this.ligacaoEmEspera.forEach((origem, destino) -> {
+                            LOG.info("{} => {} ({})", origem.getNumTelefome(), destino.getNumTelefome(), origem.getTipoNumero().getValue() + destino.getTipoNumero().getValue());
+                        });
+                        printEspera = false;
+                    }
+
+                    if (!this.ligacaoEmEspera.isEmpty()) {
                         retiraListaEspera();
                     }
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+
             }
             LOG.info("Deligando a antena {}", this.nomeAntena);
         } else {
             LOG.error("A Antena não foi iniciada pois não tem numeros registrados!");
         }
+    }
+
+    public void printStatus() {
+        this.printStatus = true;
+    }
+    public void printEspera() {
+        this.printEspera = true;
     }
 
     public void pararAntena() {
@@ -163,5 +194,13 @@ public class Antena implements Runnable {
             sb.append("\n");
         }
         return sb.toString();
+    }
+
+    public void liberarSlot(NumeroTelefone numeroTelefone){
+        NumeroTelefone destino = this.slotsEmUso.remove(numeroTelefone);
+        if(destino != null) {
+            this.qntLigacoesAtuais.decrementAndGet();
+            LOG.info("Ligação encerrada: {} => {}", numeroTelefone.getNumTelefome(), destino.getNumTelefome());
+        }
     }
 }

@@ -1,0 +1,237 @@
+2021-10-03 02:29:23.763 [main] INFO  br.ufpa.cbcc.threads.Application - Central: Total de antenas: 2Total de Numeros: 100
+CentralTelefonica{
+	 antenas = {
+	[Antena: Antena-2
+Total de numeros da Antena: 53
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000036', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000032', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000033', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000034', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000035', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000043', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000053', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000048', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000050', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000060', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000063', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000056', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000057', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000059', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000005', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000006', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000001', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000003', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000012', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000014', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000015', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000008', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000009', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000023', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000016', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000019', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000029', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000096', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000097', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000099', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000071', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000065', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000066', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000067', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000076', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000077', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000079', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000072', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000073', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000074', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000084', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000086', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000087', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000080', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000081', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000083', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000095', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000088', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000090', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000091', emLicacaoCom=null}
+, Antena: Antena-1
+Total de numeros da Antena: 47
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000038', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000039', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000044', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000045', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000046', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000047', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000040', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000041', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000042', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000052', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000054', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000055', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000049', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000051', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000061', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000062', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000058', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000004', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000068', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000069', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000070', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000007', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000064', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000000', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000078', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000010', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000011', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000075', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000020', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000021', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000085', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000022', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000017', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000082', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000018', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000028', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000092', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000093', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000030', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000094', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000031', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000024', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=BOMBEIRO, numTelefome='900000089', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000025', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000026', emLicacaoCom=null}
+NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000027', emLicacaoCom=null}
+]
+}
+2021-10-03 02:29:23.766 [main] INFO  br.ufpa.cbcc.threads.Application - Ligacao NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null} => NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+2021-10-03 02:29:23.766 [main] INFO  br.ufpa.cbcc.threads.central.Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000013', emLicacaoCom=null} => NumeroTelefone{tipoNumero=MEDICO, numTelefome='900000098', emLicacaoCom=null}
+2021-10-03 02:29:23.766 [main] INFO  br.ufpa.cbcc.threads.Application - Ligacao NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+2021-10-03 02:29:23.766 [main] INFO  br.ufpa.cbcc.threads.central.Antena - Ligacao conectada NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000002', emLicacaoCom=null} => NumeroTelefone{tipoNumero=CIVIL, numTelefome='900000037', emLicacaoCom=null}
+2021-10-03 02:29:23.767 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2 em execucao
+2021-10-03 02:29:23.767 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1 em execucao
+2021-10-03 02:29:25.768 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:25.768 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:25.770 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:25.770 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:27.770 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:27.770 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:27.770 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:27.770 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:29.771 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:29.771 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:29.771 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:29.771 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:31.771 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:31.771 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:31.772 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:31.772 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:33.772 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:33.772 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:33.772 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:33.772 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:35.772 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:35.773 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:35.772 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:35.773 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:37.773 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:37.773 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:37.773 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:37.773 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:39.774 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:39.774 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:39.774 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:39.774 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:41.774 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:41.774 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:41.775 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:41.775 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:43.775 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-2: nenhuma chamanda chegou =/
+2021-10-03 02:29:43.775 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Antena Antena-1: nenhuma chamanda chegou =/
+2021-10-03 02:29:43.775 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000002(Antena-2) => 900000037(Antena-2)
+
+2021-10-03 02:29:43.775 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Status: Total de ligacoes conectadas: 1
+Total de ligacoes em espera: 0
+Lista em curso: 
+900000013(Antena-2) => 900000098(Antena-1)
+
+2021-10-03 02:29:43.776 [Thread-1] INFO  br.ufpa.cbcc.threads.central.Antena - Deligando a antena Antena-1
+2021-10-03 02:29:43.776 [Thread-0] INFO  br.ufpa.cbcc.threads.central.Antena - Deligando a antena Antena-2

@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
-
     <Appenders>
+        <File name="Antenas" fileName="antenas.log"
+              immediateFlush="true" append="false">
+            <PatternLayout pattern=
+                                   "%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c{1.} - %msg%n"/>
+        </File>
+        <File name="AppLog" fileName="app.log"
+              immediateFlush="true" append="false">
+            <PatternLayout pattern=
+                                   "%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1} - %msg%n" />
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1.} - %msg%n"/>
         </Console>
-
-        <RollingFile name="RollingFile" filename="log/app.log"
-                     filepattern="${logPath}/%d{yyyyMMddHHmmss}-fargo.log">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c{1} - %msg%n" />
-            <Policies>
-                <SizeBasedTriggeringPolicy size="100 MB" />
-            </Policies>
-            <DefaultRolloverStrategy max="20" />
-        </RollingFile>
-
     </Appenders>
     <Loggers>
         <Root level="info">
-            <AppenderRef ref="Console" />
-            <AppenderRef ref="RollingFile" />
+            <AppenderRef ref="AppLog"/>
         </Root>
+        <Logger name="br.ufpa.cbcc.threads.Application" level="debug">
+            <appender-ref ref="Console" level="debug"/>
+        </Logger>
+
+        <Logger name="br.ufpa.cbcc.threads.central" level="debug">
+            <appender-ref ref="Antenas" level="debug"/>
+        </Logger>
     </Loggers>
 </Configuration>
